@@ -1,10 +1,15 @@
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
     <div>
-      <h3>I am Learning React </h3>
-      <input type="text" placeholder="My name" />
-      <button>Submit</button>
+      <Header/>
+      <Hero/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 };
