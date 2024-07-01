@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 const App = () => {
   return (
     <div>
+      <h2>Test React</h2>
       <Header/>
       <Hero/>
       <Contact/>
